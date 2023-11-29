@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <section class="hero">
+      <img
+        src="/images/logo.png (2).png"
+        alt="Seven Foods And Grill Logo"
+        width="150"
+        height="auto"
+      />
+      <nav class="navbar">
+        <ul>
+          <li><a href="../pages/about.html">About</a></li>
+          <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+        <hr />
+      </nav>
+    </section>
+    <!-- contact.html -->
+    <section class="contact">
+      <h2><u>Contact Us</u></h2>
+      <form action="https://formspree.io/f/xeqbbrop" method="POST">
+        <!-- Form fields go here -->
+        <label>Name: <input type="text" name="name" /></label><br /><br />
+        <label
+          >Gender:
+          <label
+            >Male<input type="radio" name="gender" value="male" required
+          /></label>
+          <label
+            >Female<input
+              type="radio"
+              name="gender"
+              value="female"
+              required /></label
+          ><br /><br />
+          <label>Date:<input type="date" name="date" /></label><br /><br />
+          <label for="email">Your Email</label><br />
+          <input name="email" id="email" type="email" required /><br />
+          <label
+            >Reservation:<br />
+            <textarea name="message"> </textarea></label
+          ><br />
+          <button type="submit">Submit</button>
+        </label>
+      </form>
+    </section>
+  </body>
 </html>
