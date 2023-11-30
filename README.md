@@ -32,9 +32,6 @@ For more information on the importance of a professional README for your reposit
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  ![logo png (2)](https://github.com/Brian-Otieno254/Seven-Foods-And-Grill/assets/150419079/45d43f0c-cf5c-49cc-8a60-f0a78593738a)
-
-
   <br/>
 
   <h3><b>Seven-Foods-And-Grill</b></h3>
