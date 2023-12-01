@@ -191,7 +191,7 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
-Not for deploymnet, images on home oage
+https://brian-otieno254.github.io/Seven-Foods-And-Grill/
 <!--
 Example:
 
