@@ -3,32 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- <style>
-      .navbar {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-      }
-
-      li {
-        float: left;
-      }
-
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-
-      li a:hover {
-        background-color: #d40c0c;
-      }
-    </style> -->
+    <title>Seven-Food-And-Grill</title>
   </head>
   <body>
     <!-- index.html -->
@@ -41,9 +16,9 @@
       />
       <nav class="navbar">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="./pages/about.html">About</a></li>
-          <li><a href="../pages/contact.html">Contact</a></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+          <li><a href="/pages/contact.html">Contact</a></li>
         </ul>
         <hr />
       </nav>
@@ -53,7 +28,6 @@
       <h2>Welcome to Seven foods And Grill</h2>
       <p>Get unique and special foods across the world.</p>
     </div>
-    <!-- index.html -->
     <section class="overview">
       <p>
         Seven Foods And Grills brings you a curated collection of three
@@ -61,11 +35,13 @@
         in all of our branches:
       </p>
       <nav>
-        <ul>
-          <li><a href="./pages/recipes/recipe 1.html">Recipe 1:</a></li>
-          <li><a href="../pages/recipes/recipe 2.html">Recipe 2</a></li>
-          <li><a href="../pages/recipes/recipe 3.html">Recipe 3</a></li>
-        </ul>
+        <div>
+          <ul>
+            <li><a href="/pages/recipes/recipe 1.html">Recipe 1:</a></li>
+            <li><a href="/pages/recipes/recipe 2.html">Recipe 2</a></li>
+            <li><a href="/pages/recipes/recipe 3.html">Recipe 3</a></li>
+          </ul>
+        </div>
       </nav>
 
       <h2>Our Delicacies</h2>
@@ -137,8 +113,7 @@
       </section>
       <section class="contact">
         <h2><u>Contact Us</u></h2>
-        <form action="https://formspree.io/f/{form_id}" method="post">
-          <!-- Form fields go here -->
+        <form action="https://formspree.io/f/xeqbbrop" method="POST">
           <label>Name: <input type="text" /></label><br /><br />
           <label
             >Gender:
@@ -148,7 +123,11 @@
             ><br /><br />
             <label>Date:<input type="date" /></label><br /><br />
             <label for="email">Your Email</label><br />
-            <input name="Email" id="email" type="email" />
+            <input name="Email" id="email" type="email" /><br /><br />
+            <label
+              >Reservation:<br />
+              <textarea name="message"> </textarea></label
+            ><br />
             <button type="submit">Send Message</button>
           </label>
         </form>
