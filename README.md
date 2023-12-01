@@ -33,8 +33,11 @@ For more information on the importance of a professional README for your reposit
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
+  
+![logo png (2)](https://github.com/Brian-Otieno254/Seven-Foods-And-Grill/assets/150419079/628c563c-f803-4908-9e1e-c78a655cf7bc)
 
-  <h3><b>Seven-Foods-And-Grill</b></h3>
+
+  <h1><b>Seven-Foods-And-Grill</b></h1>
 
 </div>
 
@@ -68,7 +71,7 @@ For more information on the importance of a professional README for your reposit
 
 > Describe your project in 1 or 2 sentences.
 Get unique , special and special foods across the world in my Eatery and Delicacy. Welcome.
-**[your_project__name]** is a...
+**[Seven-Foods-And-Grill]** is one of the top world's most trusted eateries.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -140,10 +143,9 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
-
+git clone https://github.com/Brian-Otieno254/Seven-Foods-And-Grill.git
 <!--
 Example commands:
- git clone https://github.com/Brian-Otieno254/Seven-Foods-And-Grill.git
 ```sh
   cd my-folder
  
